@@ -2,6 +2,7 @@ function generarNumeroMagico()
 {
     numeroAleatorio = Math.floor(Math.random() * 10 + 1);
     console.log(`Numero aleatorio generado: ${numeroAleatorio}`)
+    alert(`Se ha generado un numero aleatorio 😱`)
 }
 
 function enviarFormulario(e)
@@ -12,19 +13,19 @@ function enviarFormulario(e)
 
     if (numeroAleatorio === -1)
     {
-        alert(`todavia no generaste el numero.`)
+        alert(`Todavia no generaste el numero.`)
     }
     else if (input.value == numeroAleatorio)
     {
-        alert(`le calzaste`)
+        alert(`Adivinaste correctamente 😎`)
     }
     else if (input.value > numeroAleatorio)
     {
-        alert(`te pasaste`)
+        alert(`Te pasaste 🥱`)
     }
     else
     {
-        alert(`te falta pa`)
+        alert(`Te faltó un poco mas 😬`)
     }
 }
 
