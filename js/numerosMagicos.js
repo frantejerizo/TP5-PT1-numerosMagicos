@@ -7,7 +7,7 @@ function generarNumeroMagico()
 
 function enviarFormulario(e)
 {
-    // e.preventDefault()
+    e.preventDefault()
     const input = document.querySelector("input")
     console.log(input.value)
 
